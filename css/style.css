@@ -136,10 +136,27 @@ footer h5 {
   font-weight: 600;
 }
 footer .location, .around-the-web, .about {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+}
+footer .container .positioning {
+  height: 150px;
+  vertical-align: middle;
 }
 footer a {
   color: white;
+  display: inline-block;
+  width: 3.25rem;
+  height: 3.25rem;
+  line-height: 3.25rem;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+footer a:hover {
+  background-color: white;
+  color: #2c3e50;
 }
 footer .copyright {
   background-color: #1a252f;
